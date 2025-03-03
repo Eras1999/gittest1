@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animal Rescue | Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: #f8f9fa;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .services {
+            background: #e9ecef;
+            padding: 50px 0;
+        }
+        .contact {
+            background: #f8f9fa;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Animal Rescue</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Animal Rescue</h1>
+            <p>We are dedicated to saving and protecting animals in need.</p>
+            <a href="#contact" class="btn btn-primary">Get Involved</a>
+        </div>
+    </section>
+
+    <section id="about" class="container py-5">
+        <h2 class="text-center">About Us</h2>
+        <p class="text-center">We are a non-profit organization committed to rescuing and rehabilitating animals. Our mission is to provide a safe environment and find loving homes for abandoned and mistreated animals.</p>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container text-center">
+            <h2>Our Services</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h4>Animal Rescue</h4>
+                    <p>We rescue animals from dangerous situations and provide medical care.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Adoption Services</h4>
+                    <p>Helping animals find their forever homes with loving families.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Education & Awareness</h4>
+                    <p>Raising awareness about animal welfare and responsible pet ownership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <p>Get in touch to support our cause or inquire about adoptions.</p>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control mb-3" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control mb-3" placeholder="Your Email">
+                    </div>
+                </div>
+                <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
